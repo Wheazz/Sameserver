@@ -79,7 +79,7 @@ position: absolute;
     left: 910px;
 }
 /*differentiate it when it reach certain amount, I mean the device screen size*/
-@media (max-width: 1600px) {
+@media (max-width: 600px) {
     body{
         min-height: 150vh;
     }
