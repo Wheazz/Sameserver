@@ -1,3 +1,9 @@
+body{
+    background-image: url('120038-3840x2160-desktop-4k-japan-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+      }
 .more{
     width: 2000px;
     height: 2000px;
@@ -13,9 +19,7 @@ h1{
     left: 350px;
     position: absolute;
 }
-body{
-    background-color: rgb(255, 255, 255);
-    }
+
 p{
     z-index: 30;
     color: aquamarine;
@@ -33,14 +37,7 @@ p{
     width: 500px;
     position: absolute;
 }
-.secndimg{
-    z-index: 30;
-    top: 600px;
-    left: 0px;
-    height: 100px;
-    width: 1500px;
-    position: fixed; 
-}
+
 .gura{
     z-index: 30;
     position: absolute;
