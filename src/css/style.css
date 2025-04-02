@@ -4,14 +4,6 @@ body{
     background-position: center;
     min-height: 100vh;
       }
-.more{
-    width: 2000px;
-    height: 2000px;
-    position: fixed;
-  z-index: 10;
-    right: -125px;
-    top: 10px;
-}
 h1{
     z-index: 30;
     color: aquamarine;
@@ -30,12 +22,13 @@ p{
 }
     
 .firstndimg{
-    z-index: 20;
-    top: 100px;
+    top: 90px;
     left: 350px;
+    z-index: 20;
+position: absolute;
     height: 450px;
-    width: 500px;
-    position: absolute;
+    width: 550px;
+ opacity: 0.4;
 }
 
 .gura{
@@ -83,5 +76,42 @@ p{
     width: 200px;
     height: 200px;
     top: 150px;
-    left: 900px;
+    left: 910px;
+}
+/*differentiate it when it reach certain amount, I mean the device screen size*/
+@media (max-width: 765px) {
+    body{
+        min-height: 150vh;
+    }
+    .firstndimg{
+        width: 330px;
+        height: 550px;
+      top: 200px;
+      left: 20px;
+    }
+    .gura{
+       height: 100px;
+        top: 1100px;
+    }
+    .anothergura{
+     
+        height: 200px;
+        top: 850px;
+    }
+    .moregurahaha{
+        top: 1100px;
+        left: 120px;
+    }
+    .morero{
+       top: 880px;
+        left: 200px;
+    }
+    h1{
+   left: 20px;
+    top: 50px;
+    }
+    p{ 
+    left: 20px;  
+     top: 130px;
+    }
 }
