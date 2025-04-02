@@ -1,0 +1,90 @@
+.more{
+    width: 2000px;
+    height: 2000px;
+    position: fixed;
+  z-index: 10;
+    right: -125px;
+    top: 10px;
+}
+h1{
+    z-index: 30;
+    color: aquamarine;
+    top: 0px;
+    left: 350px;
+    position: absolute;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    }
+p{
+    z-index: 30;
+    color: aquamarine;
+    top: 50px;
+    left: 350px;
+    position: absolute;
+    font-style: italic
+}
+    
+.firstndimg{
+    z-index: 20;
+    top: 100px;
+    left: 350px;
+    height: 450px;
+    width: 500px;
+    position: absolute;
+}
+.secndimg{
+    z-index: 30;
+    top: 600px;
+    left: 0px;
+    height: 100px;
+    width: 1500px;
+    position: fixed; 
+}
+.gura{
+    z-index: 30;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+}
+.anothergura{
+    z-index: 30;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+}
+.moregurahaha{
+    z-index: 30;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 350px;
+    left: 120px;
+}
+.soundhe{
+    z-index: 30;
+    position: absolute;
+    top: 500px;
+    left: 950px;
+}
+#firtsbutton{
+    z-index: 30;
+    position: absolute;
+    top: 15px;
+}
+#newbutton{
+    position: absolute;
+    z-index: 30;
+    left: 80px;
+    top: 15px;
+}
+.morero{
+    position: fixed;
+    z-index: 30;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 900px;
+}
