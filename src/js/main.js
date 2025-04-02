@@ -10,8 +10,8 @@ function toggleplaypause(){
         playandpausebutton.textContent= 'pause';
     }
     else{
-        
-        audio1.play();
+         audio1.play();
+         audio1.loop=true;
         playandpausebutton.textContent= 'playing';
     }
     isplaying=!isplaying;
