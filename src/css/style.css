@@ -43,7 +43,7 @@ p{
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 50px;
+    top: 120px;
 }
 .moregurahaha{
     z-index: 30;
@@ -93,6 +93,38 @@ p{
     position: absolute;
     color: aquamarine;
 }
+.stinky{
+    position: absolute;
+    z-index: 30;
+    top: 245px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+}
+.stinky2{
+    position: absolute;
+    z-index: 30;
+    top: 140px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+}
+.stinky3{
+    position: absolute;
+    z-index: 30;
+    width: 155px;
+    height: 155px;
+    top: 365px;
+    left: 1020px;
+}
+.stinky4{
+    position: absolute;
+    z-index: 30;
+    width: 100px;
+    height: 100px;
+    top: 355px;
+    left: 910px;
+}
 /*differentiate it when it reach certain amount, I mean the device screen size*/
 @media (max-width: 600px) {
     body{
@@ -105,20 +137,26 @@ p{
         left: 20px;
     }
     .gura{
-        height: 100px;
+        height: 50px;
+        width: 50px;
         top: 1100px;
     }
     .anothergura{
-        height: 200px;
-        top: 850px;
+        height: 100px;
+        width: 100px;
+        top: 1000px;
     }
     .moregurahaha{
+        height: 100px;
+        width: 100px;
         top: 1100px;
-        left: 120px;
+        left: 70px;
     }
     .morero{
-        top: 880px;
-        left: 200px;
+        height: 100px;
+        width: 100px;
+        top: 990px;
+        left: 100px;
     }
     h1{
         left: 20px;
